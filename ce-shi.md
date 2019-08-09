@@ -10,7 +10,7 @@ print('12312')
 ```python
 while 1:
 while 1:
-    g.msgbox ("嗨，欢迎进入第一个界面小游戏")
+    g.msgbox ("嗨，欢迎进入第一个界面小游戏") #dfsf
     msg = "请问你希望学到什么知识呢？"
     title = "游戏小互动"
     choices = ["谈恋爱","编程","demo","琴棋书画"]
