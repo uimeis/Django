@@ -3,5 +3,5 @@
 
 [2.安装Django包，创建Django项目](article/2.安装Django包，创建Django项目.md)
 
-[3.Django的URL](article/article/3.Django的URL.md)
+[3.Django的URL](article/3.Django的URL.md)
 
