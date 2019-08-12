@@ -11,5 +11,5 @@
 
 [6.url重定向](/article/6.url重定向.md)
 
-[7.url命名，理解app空间命名](/article/7.url命名，理解app空间命名.md)
+[7.url命名，理解app空间命名和实例空间命名](article/7.url命名，理解app空间命名和实例空间命名.md)
 
