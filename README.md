@@ -9,3 +9,5 @@
 
 [5.分离url，理解url参数](/article/5.分离url，理解url参数.md)
 
+[6.url重定向](/article/6.url重定向.md)
+
