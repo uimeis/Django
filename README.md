@@ -13,3 +13,5 @@
 
 [7.url命名，理解app空间命名和实例空间命名](article/7.url命名，理解app空间命名和实例空间命名.md)
 
+[8.reverse函数，深入理解（url反转）](/article/8.reverse函数，深入理解（url反转）.md)
+
