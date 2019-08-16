@@ -29,4 +29,6 @@
 
 [15.将模板标签变成Django内置的标签](/article/15.将模板标签变成Django内置的标签.md)
 
+[16.MySql数据库](/article/16.MySql数据库.md)
+
 
