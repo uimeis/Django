@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{background-color: aquamarine;}
+        ul{overflow: hidden;}
+        li{list-style: none; float: left; padding-right: 20px;}
+        .movie_list span{ padding-right: 20px;}
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="{% url '电影首页' %}">首页</a></li>
+            <li><a href="{% url '发布电影' %}">发布电影</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        {% block content %}
+            <p>这是父模板</p>
+        {% endblock %}
+    </div>
+    <footer>
+        <p>这是底部</p>
+    </footer>
+
+</body>
+</html>

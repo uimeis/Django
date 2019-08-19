@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <p>这是电影详情</p>
+        <div>
+            <span>电影:{{ movie.1 }}</span>
+            <span>主演:{{ movie.2 }}</span>
+            <form action="{% url '删除电影' %}" method="post">
+                <input type="hidden" name="movie_id" value="{{ movie.0 }}">
+                <input type="submit" value="删除">
+            </form>
+        </div>
+{% endblock %}

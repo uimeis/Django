@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    {{ block.super }}
+    {% for movie in movies %}
+        <div class="movie_list">
+            <span>{{ forloop.counter }}</span>
+            <span><a href="{% url '电影详情' movie_id=movie.0 %}">{{ movie.1 }}</a></span>
+            <span>{{ movie.2 }}</span>
+        </div>
+    {% endfor %}
+{% endblock %}
