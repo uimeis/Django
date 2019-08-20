@@ -33,4 +33,7 @@
 
 [17.创建ORM模型，生成数据库](/article/17.创建ORM模型，生成数据表.md)
 
+[18.ORM常用字段](/article/18.ORM常用字段.md)
+
+[19.field常用参数](/article/19.field常用参数.md)
 
