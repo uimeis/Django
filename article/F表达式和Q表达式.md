@@ -35,3 +35,8 @@ from django.db.models import F
     books = Book.objects.filter(price__gte=30,rating__gte=4)
 ```
 * 注意，以上方法是**并集**操作，可以用传递参数的方法实现，如果是**或**操作，就要用`Q`表达式
+
+```python
+from django.db.models import Q
+    books = Book.objects.filter(Q(price__gte=30) | Q(rating__gte=4))
+```
