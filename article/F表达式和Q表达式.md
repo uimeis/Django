@@ -47,4 +47,4 @@ from django.db.models import Q
 from django.db.models import Q
 books = Book.objects.filter(Q(price__gte=30) & ~Q(name__icontains='梦'))
 ```
-
+* 注意`~`是取反的意思。
