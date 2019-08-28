@@ -19,3 +19,11 @@ from django.db.models import F
     Employee.objects.update(salary=F('salary')+1000)
 ```
 
+* 求出用户名和`email`相同的用户
+
+```python
+from django.db.models import F
+    authors = Author.objects.filter(name=F('email'))
+    for i in authors:
+        print('{}/{}'.format(i.name, i.email))
+```
