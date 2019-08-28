@@ -40,3 +40,11 @@ from django.db.models import F
 from django.db.models import Q
     books = Book.objects.filter(Q(price__gte=30) | Q(rating__gte=4))
 ```
+
+* 如果要找出价格大于30元，图书名不包含**梦**字的图书
+
+```python
+from django.db.models import Q
+books = Book.objects.filter(Q(price__gte=30) & ~Q(name__icontains='梦'))
+```
+
