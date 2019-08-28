@@ -27,3 +27,11 @@ from django.db.models import F
     for i in authors:
         print('{}/{}'.format(i.name, i.email))
 ```
+
+#### Q表达式
+* 如果想找出图书价格高于30元，评分高于4分的图书，可以在`filter`直接操作
+
+```python
+    books = Book.objects.filter(price__gte=30,rating__gte=4)
+```
+* 注意，以上方法是**并集**操作，可以用传递参数的方法实现，如果是**或**操作，就要用`Q`表达式
