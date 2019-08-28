@@ -13,3 +13,9 @@ employees = Employee.objects.all()
 ```
 
 `F`表达式可以直接执行`SQL`语句，就能完成这个需求。
+
+```python
+from django.db.models import F
+    Employee.objects.update(salary=F('salary')+1000)
+```
+
